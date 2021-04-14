@@ -1,0 +1,119 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.card-capa {
+  width: 100%;
+  height: 100%;
+}
+
+.card-contra-capa {
+	width: 100%;
+	height: 100%;
+  }
+
+article.card-produto-one,
+article.card-produto-left-dual {
+	display: flex;
+}
+article.card-produto-one img,
+article.card-produto-left-dual img {
+	height: 296mm;
+	width: 100%;
+}
+.description-one,
+.description-dual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+.description-dual{
+	justify-content: space-evenly;
+}
+h1 {
+  color: orange;
+  font-size: 25px;
+}
+
+span {
+  font-weight: 400;
+}
+b {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+}
+strong {
+  color: orange;
+
+  font-size: 20px;
+  display: block;
+  margin-top: 10px;
+}
+p {
+  font-weight: 400;
+}
+.card-produto-four{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	gap: 20px;
+	padding: 20px;
+}
+.card-produto-four img{
+	width:100%;
+}
+.card-produto-four img.item-2{
+	margin-top: 80px;
+}
+.card-produto-four img.item-3{
+	margin-top: -80px;
+}
+
+
+.card-produto-three{
+	display: flex;
+	padding: 20px 0 0 10px;
+}
+.card-produto-three div{
+	display: flex;
+	flex-direction: column;
+}
+.card-produto-three img{
+	margin: 20px 0 0 30px;
+	width: 350px;
+	height: 100%;
+}
+.card-produto-three img.item-3{
+	height: 100%;
+	width: 344px;
+	margin-left: 20px;
+}
+
+
+
+
+.card-brand-end{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card-brand-end p{
+	display: flex;
+    align-items: center;
+    margin: 40px auto;
+    width: 368px;
+}
+.card-brand-end p img{
+	margin-right: 20px;
+	width: 50px;
+}
+
+
+
+@media print {
+  article.card-produto-left img {
+    height: 296mm;
+	width: 100%;
+  }
+}
